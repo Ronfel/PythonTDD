@@ -39,7 +39,7 @@ class TesteBaconComOvos(unittest.TestCase):
                 self.assertEqual(bacon_com_ovos(entrada), saida)                
 
 
-    def test_bacon_com_ovos_deve_retornar_bacon_se_entrada_for_multipla_5(self):
+    def test_bacon_com_ovos_deve_retornar_ovos_se_entrada_for_multipla_5(self):
         entradas = (5, 10, 20, 25)
         saida = "Ovos"
 
