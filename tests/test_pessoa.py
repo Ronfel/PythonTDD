@@ -1,5 +1,5 @@
 import unittest
-from Pessoa import Pessoa
+from src.Pessoa import Pessoa
 from unittest.mock import patch
 
 class TestePessoa(unittest.TestCase):

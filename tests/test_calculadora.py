@@ -1,5 +1,5 @@
 import unittest
-from calculadora import soma
+from src.calculadora import soma
 
 class TesteCalculadora(unittest.TestCase):
     def teste_soma_5_e_5_deve_retornar_10(self):
@@ -27,5 +27,5 @@ class TesteCalculadora(unittest.TestCase):
         
                         
 
-
-unittest.main(verbosity=True)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)

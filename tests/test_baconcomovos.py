@@ -6,7 +6,7 @@
 """
 
 import unittest
-from baconcomovos import bacon_com_ovos
+from src.baconcomovos import bacon_com_ovos
 
 class TesteBaconComOvos(unittest.TestCase):
     def test_bacon_com_ovos_deve_levantar_insertion_error_se_nao_receber_inteiro(self):
@@ -48,6 +48,6 @@ class TesteBaconComOvos(unittest.TestCase):
                 self.assertEqual(bacon_com_ovos(entrada), saida)                   
                  
 
-
-unittest.main(verbosity=True)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
 
